@@ -1,0 +1,45 @@
+ header {
+     background-color: black;
+ }
+
+ .header ul li:hover {
+     transform: scale(1.5);
+ }
+
+
+ header nav {
+     display: flex;
+     justify-content: space-between
+ }
+
+ header h1 {
+     display: flex;
+     color: #ffffff
+ }
+
+ .header__nav ul li a {
+     color: #D99518;
+ }
+
+ .header__ul {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center
+ }
+
+ .header__ul li {
+     list-style: none
+ }
+
+ .header__ul a {
+     padding: 15px;
+ }
+
+ .header a {
+     text-decoration: none
+ }
+
+ .header a:hover {
+     color: #ffffff;
+     font-weight: 100;
+ }
